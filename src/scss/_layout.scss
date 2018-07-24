@@ -1,0 +1,98 @@
+//to display 4 cards in carousel at once
+.carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item{
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+.card-deck {
+    flex-direction: row;
+}
+
+.navbar-input-group {
+  font-size: 0px;
+  /*removes whitespace between button and input*/
+}
+
+.navbar-input-group input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.navbar-input-group .btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+}
+
+#popularMovies {
+  padding: 20px;
+  margin: 20px;
+  background-color: #E8E8E8;
+}
+
+.view-movie-details {
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.view-search-details {
+  padding: 20px;
+  margin: 20px;
+  background-color: #E8E8E8;
+}
+
+#myListMovies {
+  padding: 20px;
+  margin: 20px;
+  background-color: #E8E8E8;
+}
+
+.fixed-top {
+  position: sticky;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.card-tilte-list {
+  background-color: #E8E8E8;
+  margin-bottom: 0 !important;
+}
+
+.modal-body{
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+@media screen and (min-width:576px) {
+.carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item + .carousel-item{
+  width: 25%;
+  display: block;
+  float: left;
+}
+}
+
+@media screen and (min-width:768px) {
+  .carousel-item.active,
+.carousel-item.active + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item + .carousel-item + .carousel-item,
+.carousel-item.active + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+  width: 20%;
+  display: block;
+  float: left;
+}
+}
+
+@media screen and (min-width: 992px) {
+  
+}

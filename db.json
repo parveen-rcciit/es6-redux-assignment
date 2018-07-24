@@ -1,0 +1,313 @@
+{
+  "genres": [
+    {
+      "id": "action",
+      "name": "Action"
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure"
+    },
+    {
+      "id": "animation",
+      "name": "Animation"
+    },
+    {
+      "id": "comedy",
+      "name": "Comedy"
+    },
+    {
+      "id": "horror",
+      "name": "Horror"
+    },
+    {
+      "id": "drama",
+      "name": "Drama"
+    },
+    {
+      "id": "family",
+      "name": "Family"
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary"
+    },
+    {
+      "id": "history",
+      "name": "History"
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi"
+    },
+    {
+      "id": "western",
+      "name": "Western"
+    }
+  ],
+  "action": [
+    {
+      "id": "363088",
+      "original_language": "en",
+      "overview": "As Scott Lang awaits expiration of his term of house detention, Hope van Dyne and Dr. Hank Pym involve him in a scheme to rescue Mrs. van Dyne from the micro-universe into which she has fallen, while two groups of schemers converge on them with intentions of stealing Dr. Pym's inventions.",
+      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "release_date": "2018-07-04",
+      "title": "Ant-Man and the Wasp",
+      "vote_average": "7.1"
+    },
+    {
+      "id": "353081",
+      "original_language": "en",
+      "overview": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfil his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+      "poster_path": "/80PWnSTkygi3QWWmJ3hrAwqvLnO.jpg",
+      "release_date": "2018-07-25",
+      "title": "Mission: Impossible - Fallout",
+      "vote_average": "6"
+    },
+    {
+      "id": "299536",
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": "8.4"
+    }
+  ],
+  "adventure": [
+    {
+      "id": "260513",
+      "original_language": "en",
+      "overview": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
+      "poster_path": "/x1txcDXkcM65gl7w20PwYSxAYah.jpg",
+      "release_date": "2018-06-14",
+      "title": "Incredibles 2",
+      "vote_average": "7.7"
+    },
+    {
+      "id": "315635",
+      "original_language": "en",
+      "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+      "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+      "release_date": "2017-07-05",
+      "title": "Spider-Man: Homecoming",
+      "vote_average": "7.3"
+    },
+    {
+      "id": "2043",
+      "original_language": "en",
+      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
+      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
+      "release_date": "2001-04-06",
+      "title": "Along Came a Spider",
+      "vote_average": "6.2"
+    },
+    {
+      "id": "299536",
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": "8.4"
+    },
+    {
+      "id": "559",
+      "original_language": "en",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains – including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "poster_path": "/btocnvK4l8a4BGS887ed3lsTFog.jpg",
+      "release_date": "2007-05-01",
+      "title": "Spider-Man 3",
+      "vote_average": "6"
+    }
+  ],
+  "animation": [
+    {
+      "id": "400155",
+      "original_language": "en",
+      "overview": "Dracula, Mavis, Johnny and the rest of the Drac Pack take a vacation on a luxury Monster Cruise Ship, where Dracula falls in love with the ship's captain, Ericka, who's secretly a descendant of Abraham Van Helsing, the notorious monster slayer.",
+      "poster_path": "/gjAFM4xhA5vyLxxKMz38ujlUfDL.jpg",
+      "release_date": "2018-07-12",
+      "title": "Hotel Transylvania 3: Summer Vacation",
+      "vote_average": "7"
+    },
+    {
+      "id": "299536",
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": "8.4"
+    }
+  ],
+  "comedy": [
+    {
+      "id": "262",
+      "original_language": "en",
+      "overview": "Aspiring comic Rupert Pupkin attempts to achieve success in show business by stalking his idol, a late night talk-show host who craves his own privacy.",
+      "poster_path": "/pbAqLKoLydP7jl6P0vmYwlDtRPD.jpg",
+      "release_date": "1982-12-18",
+      "title": "The King of Comedy",
+      "vote_average": "7.6"
+    },
+    {
+      "id": "156268",
+      "original_language": "en",
+      "overview": "A no-nonsense cop has a flair for fashion and a celebrity takes revenge on the paparazzi in a collection of comedic sketches.",
+      "poster_path": "/vEav647jvfHMxUJtdKBUGusckVG.jpg",
+      "release_date": "2013-03-22",
+      "title": "InAPPropriate Comedy",
+      "vote_average": "3.4"
+    },
+    {
+      "id": "284053",
+      "original_language": "en",
+      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "release_date": "2017-10-25",
+      "title": "Thor: Ragnarok",
+      "vote_average": "7.5"
+    }
+  ],
+  "crime": [],
+  "documentary": [
+    {
+      "id": "426410",
+      "original_language": "en",
+      "overview": "Music is an integral part of most films, adding emotion and nuance while often remaining invisible to audiences. Matt Schrader shines a spotlight on the overlooked craft of film composing, gathering many of the art form’s most influential practitioners, from Hans Zimmer and Danny Elfman to Quincy Jones and Randy Newman, to uncover their creative process. Tracing key developments in the evolution of music in film, and exploring some of cinema’s most iconic soundtracks, 'Score' is an aural valentine for film lovers.",
+      "poster_path": "/hBc0xseN1PCKtAVJdzPNntivn3q.jpg",
+      "release_date": "2017-03-16",
+      "title": "Score: A Film Music Documentary",
+      "vote_average": "7.6"
+    },
+    {
+      "id": "353081",
+      "original_language": "en",
+      "overview": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfil his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+      "poster_path": "/80PWnSTkygi3QWWmJ3hrAwqvLnO.jpg",
+      "release_date": "2018-07-25",
+      "title": "Mission: Impossible - Fallout",
+      "vote_average": "5.3"
+    }
+  ],
+  "drama": [
+    {
+      "id": "333339",
+      "original_language": "en",
+      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+      "release_date": "2018-03-28",
+      "title": "Ready Player One",
+      "vote_average": "7.7"
+    },
+    {
+      "id": "55825",
+      "original_language": "it",
+      "overview": "A young man tries to make things right again in his relationship after he and his girlfriend get in a fight.",
+      "poster_path": "/97jePhTnH2pHBh4nPfH5aapOsX0.jpg",
+      "release_date": "2007-06-17",
+      "title": "Spider",
+      "vote_average": "7.1"
+    }
+  ],
+  "family": [
+    {
+      "id": "260513",
+      "original_language": "en",
+      "overview": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
+      "poster_path": "/x1txcDXkcM65gl7w20PwYSxAYah.jpg",
+      "release_date": "2018-06-14",
+      "title": "Incredibles 2",
+      "vote_average": "7.7"
+    }
+  ],
+  "fantasy": [],
+  "history": [
+    {
+      "id": "8618",
+      "original_language": "en",
+      "overview": "The story of an unruly class of bright, funny history students at a Yorkshire grammar school in pursuit of an undergraduate place at Oxford or Cambridge. Bounced between their maverick English master, a young and shrewd teacher hired to up their test scores, a grossly out-numbered history teacher, and a headmaster obsessed with results, the boys attempt to pass.",
+      "poster_path": "/6RhhJSyWKe34MK8MxW2h2CJ2ecm.jpg",
+      "release_date": "2006-10-02",
+      "title": "The History Boys",
+      "vote_average": "6.7"
+    },
+    {
+      "id": "53095",
+      "original_language": "en",
+      "overview": "A wily businessman plots with a sultry executive to swindle $40 million from his father. But who is conning who?",
+      "poster_path": "/tqGgOCEeXjZLhXiCLo4rI5qq03U.jpg",
+      "release_date": "2002-11-12",
+      "title": "Spider's Web",
+      "vote_average": "4.8"
+    }
+  ],
+  "horror": [
+    {
+      "id": "351286",
+      "original_language": "en",
+      "overview": "Several years after the demise of Jurassic World, a volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar. Claire Dearing, the former park manager and founder of the Dinosaur Protection Group, recruits Owen Grady to help prevent the extinction of the dinosaurs once again.",
+      "poster_path": "/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg",
+      "release_date": "2018-06-06",
+      "title": "Jurassic World: Fallen Kingdom",
+      "vote_average": "6.6"
+    },
+    {
+      "id": "135397",
+      "original_language": "en",
+      "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+      "poster_path": "/jjBgi2r5cRt36xF6iNUEhzscEcb.jpg",
+      "release_date": "2015-06-06",
+      "title": "Jurassic World",
+      "vote_average": "6.5"
+    }
+  ],
+  "music": [],
+  "mystery": [],
+  "romance": [],
+  "sciencefiction": [],
+  "tvmovie": [],
+  "thriller": [],
+  "war": [],
+  "western": [
+    {
+      "id": "559",
+      "original_language": "en",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains – including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "poster_path": "/btocnvK4l8a4BGS887ed3lsTFog.jpg",
+      "release_date": "2007-05-01",
+      "title": "Spider-Man 3",
+      "vote_average": "6"
+    }
+  ],
+  "hindi": [
+    {
+      "id": "299536",
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": "8.4"
+    },
+    {
+      "id": "318484",
+      "original_language": "hi",
+      "overview": "CBI Officer Akram Sheikh (Sunil Shetty) is on the verge of nabbing three dreaded Pakistan-backed arms dealers , the brothers Ali (Arbaaz Khan) and Abbas (Sanjay Kapoor) and their common moll Laila (Isha Koppikar) . When Sheikh busts an important arms deal conducted by his three targets , Ali-Abbas join forces with Gopal (Chunky Pandey) , a corrupt scientist to get hold of a deadly virus and take the tourists at the Elphinstone Jail resort as hostage . Akram Sheikh is now compelled to get help from Rachit (Ajay Devgan) , a criminal serving jail time who was a former associate of Ali-Abbas and the only person in history to have successfully escaped the Elphinstone jail . Along with a commando team , they try to pull off a rescue attempt by breaking in the jail and rescuing the hostages .",
+      "poster_path": "/e6n3Tf86MJgqtF34bLogGOpkNQf.jpg",
+      "release_date": "2003-07-11",
+      "title": "Qayamat: City Under Threat",
+      "vote_average": "5.5"
+    },
+    {
+      "id": "393445",
+      "original_language": "hi",
+      "overview": "Ayan falls in love with his soulmate, Alizeh, but she doesn’t reciprocate the feeling. Later, a relationship with Saba helps him realize Alizeh’s value in his life, irrespective of their relationship status.",
+      "poster_path": "/7PIBDIQPMuFzMPvCFUgxhM842f0.jpg",
+      "release_date": "2016-10-27",
+      "title": "Ae Dil Hai Mushkil",
+      "vote_average": "6.2"
+    }
+  ]
+}
