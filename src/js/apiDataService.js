@@ -58,7 +58,7 @@ const saveDataTOJsonSever = (url, passData, callback) => {
         })
         .then((response) => {
             callback(response);
-        });
+        }).catch(error => console.error('Error:', error));
 }
 export {
     getPopularMovies,

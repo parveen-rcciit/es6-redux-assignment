@@ -40,7 +40,7 @@ function moviesCollectionEventListener() {
   });
 
   //creates new collection button
-  jQuery(document).on("keypress", "#newButtonId", (e) => {
+  jQuery(document).on("keypress", "#newButtonId", function(e) {
     if (e.which == 13) {
       var buttonText = jQuery(this).val();
       var buttonId = buttonText.toLocaleLowerCase();

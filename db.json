@@ -43,6 +43,10 @@
     {
       "id": "western",
       "name": "Western"
+    },
+    {
+      "id": "mystery",
+      "name": "Mystery"
     }
   ],
   "action": [
@@ -327,7 +331,17 @@
     }
   ],
   "music": [],
-  "mystery": [],
+  "mystery": [
+    {
+      "id": 447200,
+      "original_language": "en",
+      "overview": "Framed and on the run, a former FBI agent must save his family from a blazing fire in the world's tallest building.",
+      "poster_path": "/3NL1FiTEhU4SWOuWk8lkVCbmnYm.jpg",
+      "release_date": "2018-07-11",
+      "title": "Skyscraper",
+      "vote_average": 6.1
+    }
+  ],
   "romance": [],
   "sciencefiction": [],
   "tvmovie": [],

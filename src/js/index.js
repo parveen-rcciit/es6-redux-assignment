@@ -8,9 +8,7 @@ require("../scss/style.scss");
 // local file imports
 import {
   getPopularMovies,
-  getMyListOfMoviesByCollection,
-  getMovieCollectionTypes,
-  getSearchMovieResults
+  getMovieCollectionTypes
 } from './apiDataService';
 import {
   moviesEventListener,
@@ -21,8 +19,7 @@ import {
   showMyCollectionOfMovies
 } from './movieCollection/moviesCollectionEventHandler';
 import {
-  searchMovieEventListener,
-  showSearchMovies
+  searchMovieEventListener
 } from './searchMovies/searchMoviesEventHandler';
 import {
   baseUrl
@@ -43,19 +40,3 @@ document.addEventListener("DOMContentLoaded", (event) =>  {
     jQuery(".carousel-item.active:last-child").insertBefore(jQuery(".carousel-item:first-child"));
   });
   });
-
-/*jQuery(document).ready(function () {
-  console.log('app initialized');
-  getPopularMovies(1, showPopularMovies);
-  getMovieCollectionTypes(showMyCollectionOfMovies);
-  moviesEventListener();
-  moviesCollectionEventListener();
-  searchMovieEventListener();
-  
-  //carousel
-   jQuery('#myCarousel, #myCarousel-search, #myCarousel-myColMovie').on('slid.bs.carousel', function () {
-    jQuery(".carousel-item.active:nth-child(" + (jQuery(".carousel-inner .carousel-item").length - 1) + ") + .carousel-item").insertBefore(jQuery(".carousel-item:first-child"));
-    jQuery(".carousel-item.active:last-child").insertBefore(jQuery(".carousel-item:first-child"));
-  });
-
-});*/
