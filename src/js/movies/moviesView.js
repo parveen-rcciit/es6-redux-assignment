@@ -4,7 +4,7 @@ import {
 } from '../apiPath';
 
 //displays popuar movies on home page
-function createPopularMoviesList(containerId, movieData) {
+const createPopularMoviesList = (containerId, movieData) => {
  var movieListSize = jQuery(".carousel-item-popular-movie", ".card-deck-popular-movie").length;
  let popularMoviesCarouselItems = "";
  movieData.results.map((movieRecod, index) => {
@@ -23,8 +23,7 @@ function createPopularMoviesList(containerId, movieData) {
  }
 }
 //displays movie details
-function createMovieDetail(containerId, movieDetailData) {
-
+const createMovieDetail = (containerId, movieDetailData) => {
  let movieDetails = `<div class="section-content">
                           <div class="container">
                               <div class="row">

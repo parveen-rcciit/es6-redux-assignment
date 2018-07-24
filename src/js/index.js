@@ -28,7 +28,23 @@ import {
   baseUrl
 } from './apiPath';
 
-jQuery(document).ready(function () {
+
+document.addEventListener("DOMContentLoaded", (event) =>  {
+  console.log('app initialized');
+  getPopularMovies(1, showPopularMovies);
+  getMovieCollectionTypes(showMyCollectionOfMovies);
+  moviesEventListener();
+  moviesCollectionEventListener();
+  searchMovieEventListener();
+  
+  //to display multiple cards in carousel
+   jQuery('#myCarousel, #myCarousel-search, #myCarousel-myColMovie').on('slid.bs.carousel', function () {
+    jQuery(".carousel-item.active:nth-child(" + (jQuery(".carousel-inner .carousel-item").length - 1) + ") + .carousel-item").insertBefore(jQuery(".carousel-item:first-child"));
+    jQuery(".carousel-item.active:last-child").insertBefore(jQuery(".carousel-item:first-child"));
+  });
+  });
+
+/*jQuery(document).ready(function () {
   console.log('app initialized');
   getPopularMovies(1, showPopularMovies);
   getMovieCollectionTypes(showMyCollectionOfMovies);
@@ -42,4 +58,4 @@ jQuery(document).ready(function () {
     jQuery(".carousel-item.active:last-child").insertBefore(jQuery(".carousel-item:first-child"));
   });
 
-});
+});*/

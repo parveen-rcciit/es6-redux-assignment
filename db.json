@@ -72,6 +72,15 @@
       "release_date": "2018-04-25",
       "title": "Avengers: Infinity War",
       "vote_average": "8.4"
+    },
+    {
+      "id": 559,
+      "original_language": "en",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains – including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "poster_path": "/btocnvK4l8a4BGS887ed3lsTFog.jpg",
+      "release_date": "2007-05-01",
+      "title": "Spider-Man 3",
+      "vote_average": 6
     }
   ],
   "adventure": [
@@ -110,15 +119,6 @@
       "release_date": "2018-04-25",
       "title": "Avengers: Infinity War",
       "vote_average": "8.4"
-    },
-    {
-      "id": "559",
-      "original_language": "en",
-      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains – including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
-      "poster_path": "/btocnvK4l8a4BGS887ed3lsTFog.jpg",
-      "release_date": "2007-05-01",
-      "title": "Spider-Man 3",
-      "vote_average": "6"
     }
   ],
   "animation": [
@@ -168,6 +168,15 @@
       "release_date": "2017-10-25",
       "title": "Thor: Ragnarok",
       "vote_average": "7.5"
+    },
+    {
+      "id": 11546,
+      "original_language": "en",
+      "overview": "The Russians need help in dealing with the Mafia and so they seek help with the veterans of the Police Academy. They head off to Moscow, in order to find evidence against Konstantin Konali, who marketed a computer game that everyone in the world is playing.",
+      "poster_path": "/mpUOqZcs7VVg9LrVPRZKAGPiTT2.jpg",
+      "release_date": "1994-06-09",
+      "title": "Police Academy: Mission to Moscow",
+      "vote_average": 4.2
     }
   ],
   "crime": [],
@@ -209,6 +218,15 @@
       "release_date": "2007-06-17",
       "title": "Spider",
       "vote_average": "7.1"
+    },
+    {
+      "id": 454619,
+      "original_language": "en",
+      "overview": "A spoiled, wealthy yacht owner is thrown overboard and becomes the target of revenge from his mistreated employee. A remake of the 1987 comedy.",
+      "poster_path": "/qauHzSQJdo9VYX4NKn9PdWnvXOV.jpg",
+      "release_date": "2018-05-03",
+      "title": "Overboard",
+      "vote_average": 6
     }
   ],
   "family": [
@@ -220,6 +238,24 @@
       "release_date": "2018-06-14",
       "title": "Incredibles 2",
       "vote_average": "7.7"
+    },
+    {
+      "id": "177677",
+      "original_language": "en",
+      "overview": "Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.",
+      "poster_path": "/z2sJd1OvAGZLxgjBdSnQoLCfn3M.jpg",
+      "release_date": "2015-07-23",
+      "title": "Mission: Impossible - Rogue Nation",
+      "vote_average": "7.1"
+    },
+    {
+      "id": "118340",
+      "original_language": "en",
+      "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+      "poster_path": "/y31QB9kn3XSudA15tV7UWQ9XLuW.jpg",
+      "release_date": "2014-07-30",
+      "title": "Guardians of the Galaxy",
+      "vote_average": "7.9"
     }
   ],
   "fantasy": [],
@@ -261,6 +297,33 @@
       "release_date": "2015-06-06",
       "title": "Jurassic World",
       "vote_average": "6.5"
+    },
+    {
+      "id": "299536",
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": "8.4"
+    },
+    {
+      "id": "316727",
+      "original_language": "en",
+      "overview": "Two years after choosing not to kill the man who killed his son, former police sergeant Leo Barnes has become head of security for Senator Charlene Roan, the front runner in the next Presidential election due to her vow to eliminate the Purge. On the night of what should be the final Purge, a betrayal from within the government forces Barnes and Roan out onto the street where they must fight to survive the night.",
+      "poster_path": "/bjOJFjUffRZQpNQ9g3yvc9F6LBM.jpg",
+      "release_date": "2016-06-29",
+      "title": "The Purge: Election Year",
+      "vote_average": "6.2"
+    },
+    {
+      "id": 21781,
+      "original_language": "ko",
+      "overview": "A recently widowed TV producer is drawn to an isolated cabin in a mysterious woods. KANG Min regains his consciousness 14 days after brain surgery following a mysterious accident he had in the forest. Shockingly enough, the first thing he says is that two people died in Spider Forest. Detective CHOI, KANG Min's friend, finds a couple brutally murdered at a cottage in the forest, just like KANG Min described. As the couple found dead at the cottage are identified as CHOI Jong-phil, his senior from work, and HWANG Soo-young, his girlfriend, KANG Min becomes both a witness and key suspect in the investigation.",
+      "poster_path": "/fa14wvX6KZiWP7LHz4pUQ1H5YE4.jpg",
+      "release_date": "2004-09-03",
+      "title": "Spider Forest",
+      "vote_average": 6.6
     }
   ],
   "music": [],
@@ -279,6 +342,42 @@
       "release_date": "2007-05-01",
       "title": "Spider-Man 3",
       "vote_average": "6"
+    },
+    {
+      "id": "9613",
+      "original_language": "en",
+      "overview": "A mentally disturbed man takes residence in a halfway house. His mind gradually slips back into the realm created by his illness, where he replays a key part of his childhood.",
+      "poster_path": "/8H4vgZbD2SZGV8ddOmgmt603lyR.jpg",
+      "release_date": "2002-12-13",
+      "title": "Spider",
+      "vote_average": "6.6"
+    },
+    {
+      "id": 56292,
+      "original_language": "en",
+      "overview": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+      "poster_path": "/s58mMsgIVOFfoXPtwPWJ3hDYpXf.jpg",
+      "release_date": "2011-12-07",
+      "title": "Mission: Impossible - Ghost Protocol",
+      "vote_average": 6.9
+    },
+    {
+      "id": 2043,
+      "original_language": "en",
+      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
+      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
+      "release_date": "2001-04-06",
+      "title": "Along Came a Spider",
+      "vote_average": 6.2
+    },
+    {
+      "id": 38312,
+      "original_language": "it",
+      "overview": "Hard and dangerous service. Needed to extinguish fires, but what if there is a fire between the legs?",
+      "poster_path": "/ncSZ5fbllANwXDqYypJ3tOyr3gV.jpg",
+      "release_date": "1987-01-01",
+      "title": "Firefighters 2: Heroic Mission",
+      "vote_average": 5.5
     }
   ],
   "hindi": [

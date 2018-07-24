@@ -4,7 +4,7 @@ import {
 } from '../apiPath';
 
 //displays all collection buttons
-function createMovieCollectionButton(containerId, movieCollectionTypesData) {
+const createMovieCollectionButton = (containerId, movieCollectionTypesData) => {
 
  let movieCollectionTypes = "";
 
@@ -20,7 +20,7 @@ function createMovieCollectionButton(containerId, movieCollectionTypesData) {
 
 
 //displays collection list on home page
-function createMyCollectionOfMovies(movieColData) {
+const createMyCollectionOfMovies = (movieColData) => {
  let myCollectionOfMovies = "";
  movieColData.map((movieCol, index) => {
   myCollectionOfMovies += `<div id=${movieCol.id} class="carousel-item col-md-2 carousel-item-my-collection-movie" data-toggle="modal" data-target="#movieCollectionListView">
@@ -35,7 +35,7 @@ function createMyCollectionOfMovies(movieColData) {
 }
 
 //displays all movies in a collection
-function createMoviesByCollection(movieCollectionData) {
+const createMoviesByCollection = (movieCollectionData) => {
  let movieCollectionDetails = "";
  jQuery("#movieCollectionList").html("");
  movieCollectionData.map((movieColDetailData, index) => {
