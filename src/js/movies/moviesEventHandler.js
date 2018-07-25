@@ -14,6 +14,16 @@ import {
   baseUrl
 } from '../apiPath';
 
+import {
+    store
+} from "../stateMgmt/store";
+
+import {
+  SHOW_POPULAR_MOVIES,
+  SHOW_FULL_MOVIE_DETAILS
+} from "../stateMgmt/actionTypes";
+
+
 function  moviesEventListener(){
   //get movies for pagination
   jQuery(document).on("click", "#nextMovieList", function() {
@@ -36,11 +46,11 @@ function  moviesEventListener(){
 }
 
 const showPopularMovies = (data) => {
-  createPopularMoviesList("topMoviesContainer", data);
+  store.dispatch({type: SHOW_POPULAR_MOVIES, item: data});
 }
 
 const showFullMovieDetails = (data) => {
-  createMovieDetail("movieDetail", data);
+  store.dispatch({type: SHOW_FULL_MOVIE_DETAILS, item: data});
 
 }
 

@@ -27,6 +27,10 @@
     {
       "id": "mystery",
       "name": "Mystery"
+    },
+    {
+      "id": "comedy",
+      "name": "Comedy"
     }
   ],
   "action": [
@@ -51,39 +55,18 @@
       "genre": "action"
     }
   ],
-  "adventure": [
-    {
-      "id": 363088,
-      "original_language": "en",
-      "overview": "As Scott Lang awaits expiration of his term of house detention, Hope van Dyne and Dr. Hank Pym involve him in a scheme to rescue Mrs. van Dyne from the micro-universe into which she has fallen, while two groups of schemers converge on them with intentions of stealing Dr. Pym's inventions.",
-      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
-      "release_date": "2018-07-04",
-      "title": "Ant-Man and the Wasp",
-      "vote_average": 7,
-      "genre": "adventure"
-    },
-    {
-      "id": 2043,
-      "original_language": "en",
-      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
-      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
-      "release_date": "2001-04-06",
-      "title": "Along Came a Spider",
-      "vote_average": 6.2,
-      "genre": "adventure"
-    },
-    {
-      "id": 166822,
-      "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
-      "genre": "adventure"
-    }
-  ],
+  "adventure": [],
   "animation": [
+    {
+      "id": 299536,
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": 8.4,
+      "genre": "animation"
+    },
     {
       "id": 260513,
       "original_language": "en",
@@ -93,39 +76,9 @@
       "title": "Incredibles 2",
       "vote_average": 7.7,
       "genre": "animation"
-    },
-    {
-      "id": 284053,
-      "original_language": "en",
-      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
-      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "release_date": "2017-10-25",
-      "title": "Thor: Ragnarok",
-      "vote_average": 7.5,
-      "genre": "animation"
     }
   ],
   "drama": [
-    {
-      "id": 284053,
-      "original_language": "en",
-      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
-      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "release_date": "2017-10-25",
-      "title": "Thor: Ragnarok",
-      "vote_average": 7.5,
-      "genre": "drama"
-    },
-    {
-      "id": 2043,
-      "original_language": "en",
-      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
-      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
-      "release_date": "2001-04-06",
-      "title": "Along Came a Spider",
-      "vote_average": 6.2,
-      "genre": "drama"
-    },
     {
       "id": 166822,
       "original_language": "en",
@@ -139,28 +92,7 @@
   ],
   "crime": [],
   "documentary": [],
-  "family": [
-    {
-      "id": 2043,
-      "original_language": "en",
-      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
-      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
-      "release_date": "2001-04-06",
-      "title": "Along Came a Spider",
-      "vote_average": 6.2,
-      "genre": "family"
-    },
-    {
-      "id": 166822,
-      "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
-      "genre": "family"
-    }
-  ],
+  "family": [],
   "horror": [
     {
       "id": 10065,

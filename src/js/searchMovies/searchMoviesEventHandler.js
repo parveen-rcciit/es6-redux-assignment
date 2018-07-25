@@ -9,16 +9,24 @@ import {
   baseUrl
 } from '../apiPath'
 
+import {
+  store
+} from "../stateMgmt/store";
+
+import{
+  SHOW_SEARCH_MOVIE_RESULTS
+} from "../stateMgmt/actionTypes";
+
 function searchMovieEventListener() {
   //display search results
-  jQuery(document).on("click", "#searchMovieButton", function() {
+  jQuery(document).on("click", "#searchMovieButton", function () {
     var movieName = jQuery('#movieName').val();
     getSearchMovieResults(movieName, 1, showSearchMovies);
     return false;
   });
 
   //get search movie results for pagination
-  jQuery(document).on("click", "#nextSearchMovieList", function() {
+  jQuery(document).on("click", "#nextSearchMovieList", function () {
     var activeElemIndex = jQuery(".carousel-item-search-movie").index(jQuery(".carousel-item-search-movie.active"));
     if (activeElemIndex % 13 == 0) {
       var pageNumber = parseInt(jQuery(this).attr("pageNumber"));
@@ -30,9 +38,10 @@ function searchMovieEventListener() {
   });
 }
 const showSearchMovies = (data) => {
-  createSearchMoviesList("searchMovieResult", data);
+  store.dispatch({type: SHOW_SEARCH_MOVIE_RESULTS, item: data});
+  /*createSearchMoviesList("searchMovieResult", data);
   jQuery("#searchMovieResult").removeClass("d-none");
-  jQuery("#searchMovieResult").addClass("view-search-details");
+  jQuery("#searchMovieResult").addClass("view-search-details");*/
 }
 
 export {

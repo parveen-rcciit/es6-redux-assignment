@@ -5,6 +5,7 @@ import 'jquery-ui';
 //import 'font-awesome';
 import img from '../assets/images/hero-image1.jpg'
 require("../scss/style.scss");
+import subscribeStore from './stateMgmt/subscribe';
 // local file imports
 import {
   getPopularMovies,
@@ -25,7 +26,6 @@ import {
   baseUrl
 } from './apiPath';
 
-
 document.addEventListener("DOMContentLoaded", (event) => {
   console.log('app initialized');
   getPopularMovies(1, showPopularMovies);
@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   moviesEventListener();
   moviesCollectionEventListener();
   searchMovieEventListener();
+  subscribeStore();
 
   //to display multiple cards in carousel
   jQuery('#myCarousel, #myCarousel-search, #myCarousel-myColMovie').on('slid.bs.carousel', function () {

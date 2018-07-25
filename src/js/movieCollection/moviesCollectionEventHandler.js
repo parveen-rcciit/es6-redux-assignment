@@ -15,6 +15,18 @@ import {
   baseUrl
 } from '../apiPath';
 
+import {
+  SHOW_MOVIE_COLLECTION_TYPES,
+  SHOW_MOVIES_BY_COLLECTION,
+  ADD_MOVIE_TO_COLLECTION,
+  DELETE_MOVIE_FROM_COLLECTION,
+} from "../stateMgmt/actionTypes";
+
+import {
+  store
+} from "../stateMgmt/store";
+
+
 function moviesCollectionEventListener() {
 
   //adds movie to a collection
@@ -64,27 +76,16 @@ function moviesCollectionEventListener() {
 
 }
 
-const showPopularMovies = (data) => {
-  createPopularMoviesList("topMoviesContainer", data);
-}
-
-const showSearchMovies = (data) => {
-  createSearchMoviesList("searchMovieResult", data);
-  jQuery("#searchMovieResult").removeClass("d-none");
-  jQuery("#searchMovieResult").addClass("view-search-details");
-}
 
 const showMyCollectionOfMovies = (data) => {
-  createMyCollectionOfMovies(data);
+  store.dispatch({
+    type: SHOW_MOVIE_COLLECTION_TYPES,
+    item: data
+  });
 }
 
 const saveDataToCollection = (collectionname) => {
   saveDataTOJsonSever(baseUrl + collectionname, data)
-}
-
-const showFullMovieDetails = (data) => {
-  createMovieDetail("movieDetail", data);
-
 }
 
 const showMovieCollectionTypes = (data) => {
@@ -92,7 +93,10 @@ const showMovieCollectionTypes = (data) => {
 }
 
 const showMoviesByCollection = (data) => {
-  createMoviesByCollection(data);
+  store.dispatch({
+    type: SHOW_MOVIES_BY_COLLECTION,
+    item: data
+  });
 }
 
 const addMovieToCollection = (data) => {
@@ -126,9 +130,9 @@ const updateCollectionList = (response) => {
   getMovieCollectionTypes(showMyCollectionOfMovies);
 }
 const updateCollectionListForMovies = (response) => {
-  //console.log(response);
-  var colType = response.url.split("/")[3];
-  getMyListOfMoviesByCollection(colType, showMoviesByCollection);
+  store.dispatch({type: DELETE_MOVIE_FROM_COLLECTION, item: response});
+  /*var colType = response.url.split("/")[3];
+  getMyListOfMoviesByCollection(colType, showMoviesByCollection);*/
 }
 export {
   moviesCollectionEventListener,
