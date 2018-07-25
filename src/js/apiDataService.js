@@ -48,7 +48,7 @@ const getMyListOfMoviesByCollection = (colType, callback) => {
 }
 
 // saving movie data to collection
-const saveDataTOJsonSever = (url, passData) => {
+const saveDataTOJsonSever = (url, passData, callback) => {
     fetch(url, {
             method: "post",
             headers: {
@@ -58,7 +58,7 @@ const saveDataTOJsonSever = (url, passData) => {
             body: JSON.stringify(passData)
         })
         .then((response) => {
-            console.log(response);
+            callback(response);
         }).catch(error => console.error('Error:', error));
 }
     

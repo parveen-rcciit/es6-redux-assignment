@@ -30,7 +30,7 @@ const createMyCollectionOfMovies = (movieColData) => {
                                  </div>
                                  </div>`;
  });
- jQuery(".card-deck-my-collection-movie").append(myCollectionOfMovies);
+ jQuery(".card-deck-my-collection-movie").html(myCollectionOfMovies);
  jQuery(".carousel-item-my-collection-movie").first().addClass('active');
 }
 

@@ -63,16 +63,6 @@
       "genre": "adventure"
     },
     {
-      "id": 284053,
-      "original_language": "en",
-      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
-      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "release_date": "2017-10-25",
-      "title": "Thor: Ragnarok",
-      "vote_average": 7.5,
-      "genre": "adventure"
-    },
-    {
       "id": 2043,
       "original_language": "en",
       "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
@@ -112,26 +102,6 @@
       "release_date": "2017-10-25",
       "title": "Thor: Ragnarok",
       "vote_average": 7.5,
-      "genre": "animation"
-    },
-    {
-      "id": 2043,
-      "original_language": "en",
-      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
-      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
-      "release_date": "2001-04-06",
-      "title": "Along Came a Spider",
-      "vote_average": 6.2,
-      "genre": "animation"
-    },
-    {
-      "id": 166822,
-      "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
       "genre": "animation"
     }
   ],
@@ -193,36 +163,26 @@
   ],
   "horror": [
     {
-      "id": 2043,
+      "id": 10065,
       "original_language": "en",
-      "overview": "When a teacher kidnaps a girl from a prestigious school, homicide detective, Alex Cross takes the case and teams up with young security agent, Jezzie Flannigan in hope of finding the girl and stopping the brutal psychopath. Every second counts as Alex and Jezzie attempt to track down the kidnapper before the spider claims another victim for its web.",
-      "poster_path": "/1ZjDmPKMUtout8hR77qmK1llgls.jpg",
-      "release_date": "2001-04-06",
-      "title": "Along Came a Spider",
-      "vote_average": 6.2,
-      "genre": "horror"
-    },
-    {
-      "id": 166822,
-      "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
+      "overview": "A family is terrorized by demonic forces after moving into a home that was the site of a grisly mass-murder.",
+      "poster_path": "/cZW2ajrHSiA0Ar2o00g4ezUYqZX.jpg",
+      "release_date": "2005-04-15",
+      "title": "The Amityville Horror",
+      "vote_average": 6,
       "genre": "horror"
     }
   ],
   "music": [],
   "mystery": [
     {
-      "id": 166822,
+      "id": 284053,
       "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
+      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "release_date": "2017-10-25",
+      "title": "Thor: Ragnarok",
+      "vote_average": 7.5,
       "genre": "mystery"
     }
   ],

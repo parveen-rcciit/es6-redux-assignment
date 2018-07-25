@@ -18,53 +18,53 @@ import {
 function moviesCollectionEventListener() {
 
   //adds movie to a collection
-  jQuery(document).on("click", ".movie-col-type", function() {
+  jQuery(document).on("click", ".movie-col-type", function () {
     var movieId = jQuery(this.parentElement.previousElementSibling).attr("movieid");
     getFullMovieDetails(movieId, addMovieToCollection);
 
   });
-  
+
   //remove movie from a collection
-  jQuery(document).on("click", ".movie-col-del", function() {
+  jQuery(document).on("click", ".movie-col-del", function () {
     var movieId = jQuery(this.nextElementSibling.firstElementChild.firstElementChild).attr("movieid");
     var colType = jQuery(this).attr("id");
-    deleteMovieFromCollection(baseUrl + colType + "/" + movieId, updateCollectionList);
+    deleteMovieFromCollection(baseUrl + colType + "/" + movieId, updateCollectionListForMovies);
   });
-  
-  
+
+
   //get movie collection types
-  jQuery(document).on("click", ".collectionButton", function() {
+  jQuery(document).on("click", ".collectionButton", function () {
     getMovieCollectionTypes(showMovieCollectionTypes);
   });
 
   //shows movies by collection
-  jQuery(document).on("click", ".carousel-item-my-collection-movie", function() {
+  jQuery(document).on("click", ".carousel-item-my-collection-movie", function () {
     var colType = jQuery(this).attr("id");
     getMyListOfMoviesByCollection(colType, showMoviesByCollection);
   });
 
   //adds textbox to capture text for new collection button
-  jQuery(document).on("click", "#createNewMovieColId", function() {
+  jQuery(document).on("click", "#createNewMovieColId", function () {
     var buttonText = `<input type="text" id="newButtonId" name"buttonText">`;
     jQuery("#createNewMovieColId").before(buttonText);
   });
 
   //creates new collection button
-  jQuery(document).on("keypress", "#newButtonId", function(e) {
+  jQuery(document).on("keypress", "#newButtonId", function (e) {
     if (e.which == 13) {
       var buttonText = jQuery(this).val();
       var buttonId = buttonText.toLocaleLowerCase();
       var newColButton = `<button type="button" id="${buttonId}" class="btn btn-secondary btn-sm w-25 m-2 movie-col-type">${buttonText}</button>`;
       jQuery("#newButtonId").remove();
       jQuery("#createNewMovieColId").before(newColButton);
-      addToCollection(buttonId, buttonText);
+      addToCollection(buttonId, buttonText, updateCollectionList);
     }
   });
 
 
 }
 
-const showPopularMovies = (data) =>{
+const showPopularMovies = (data) => {
   createPopularMoviesList("topMoviesContainer", data);
 }
 
@@ -83,11 +83,7 @@ const saveDataToCollection = (collectionname) => {
 }
 
 const showFullMovieDetails = (data) => {
-  //jQuery("#detailsPage").removeClass("d-none");
-  //jQuery("#detailsPage").addClass("view-movie-details");
   createMovieDetail("movieDetail", data);
-  //jQuery("#popularMovies").addClass("d-none");
-  //jQuery("#myListMovies").addClass("d-none");
 
 }
 
@@ -111,20 +107,27 @@ const addMovieToCollection = (data) => {
     vote_average: data.vote_average,
     genre: colType
   };
-  saveDataTOJsonSever(baseUrl + colType, saveData)
+  saveDataTOJsonSever(baseUrl + colType, saveData, updateCollection)
 }
 
-const addToCollection = (colId, colname) => {
+const addToCollection = (colId, colname, callback) => {
   var saveCol = {
     id: colId,
     name: colname
   };
-  saveDataTOJsonSever(baseUrl + "genres", saveCol);
+  saveDataTOJsonSever(baseUrl + "genres", saveCol, callback);
 }
 
-const updateCollectionList = (msg) => {
-  //console.log(msg);
-  var colType = msg.url.split("/")[3];
+const updateCollection = (response) => {
+  console.log(response);
+}
+
+const updateCollectionList = (response) => {
+  getMovieCollectionTypes(showMyCollectionOfMovies);
+}
+const updateCollectionListForMovies = (response) => {
+  //console.log(response);
+  var colType = response.url.split("/")[3];
   getMyListOfMoviesByCollection(colType, showMoviesByCollection);
 }
 export {
