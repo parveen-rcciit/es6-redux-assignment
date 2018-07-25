@@ -3,7 +3,8 @@ import {
   getFullMovieDetails,
   saveDataTOJsonSever,
   getMovieCollectionTypes,
-  getMyListOfMoviesByCollection
+  getMyListOfMoviesByCollection,
+  deleteMovieFromCollection
 } from '../apiDataService';
 import {
   createMyCollectionOfMovies,
@@ -22,6 +23,15 @@ function moviesCollectionEventListener() {
     getFullMovieDetails(movieId, addMovieToCollection);
 
   });
+  
+  //remove movie from a collection
+  jQuery(document).on("click", ".movie-col-del", function() {
+    var movieId = jQuery(this.nextElementSibling.firstElementChild.firstElementChild).attr("movieid");
+    var colType = jQuery(this).attr("id");
+    deleteMovieFromCollection(baseUrl + colType + "/" + movieId, updateCollectionList);
+  });
+  
+  
   //get movie collection types
   jQuery(document).on("click", ".collectionButton", function() {
     getMovieCollectionTypes(showMovieCollectionTypes);
@@ -69,7 +79,7 @@ const showMyCollectionOfMovies = (data) => {
 }
 
 const saveDataToCollection = (collectionname) => {
-  saveDataTOJsonSever(baseUrl + collectionname, data, updateColloctionDom)
+  saveDataTOJsonSever(baseUrl + collectionname, data)
 }
 
 const showFullMovieDetails = (data) => {
@@ -98,9 +108,10 @@ const addMovieToCollection = (data) => {
     poster_path: data.poster_path,
     release_date: data.release_date,
     title: data.title,
-    vote_average: data.vote_average
+    vote_average: data.vote_average,
+    genre: colType
   };
-  saveDataTOJsonSever(baseUrl + colType, saveData, updateCollectionList)
+  saveDataTOJsonSever(baseUrl + colType, saveData)
 }
 
 const addToCollection = (colId, colname) => {
@@ -108,11 +119,13 @@ const addToCollection = (colId, colname) => {
     id: colId,
     name: colname
   };
-  saveDataTOJsonSever(baseUrl + "genres", saveCol, updateCollectionList);
+  saveDataTOJsonSever(baseUrl + "genres", saveCol);
 }
 
 const updateCollectionList = (msg) => {
-  console.log(msg);
+  //console.log(msg);
+  var colType = msg.url.split("/")[3];
+  getMyListOfMoviesByCollection(colType, showMoviesByCollection);
 }
 export {
   moviesCollectionEventListener,

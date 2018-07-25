@@ -46,8 +46,9 @@ const getMovieCollectionTypes = (callback) => {
 const getMyListOfMoviesByCollection = (colType, callback) => {
     fetchDataFromApi(`http://localhost:3031/${colType}`, callback);
 }
-// saving data to collection
-const saveDataTOJsonSever = (url, passData, callback) => {
+
+// saving movie data to collection
+const saveDataTOJsonSever = (url, passData) => {
     fetch(url, {
             method: "post",
             headers: {
@@ -57,14 +58,31 @@ const saveDataTOJsonSever = (url, passData, callback) => {
             body: JSON.stringify(passData)
         })
         .then((response) => {
+            console.log(response);
+        }).catch(error => console.error('Error:', error));
+}
+    
+
+// delete movie from collection
+const deleteMovieFromCollection = (url, callback) => {
+     fetch(url, {
+            method: "delete",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })
+        .then((response) => {
             callback(response);
         }).catch(error => console.error('Error:', error));
 }
+
 export {
     getPopularMovies,
     getSearchMovieResults,
     getFullMovieDetails,
     getMovieCollectionTypes,
     getMyListOfMoviesByCollection,
-    saveDataTOJsonSever
+    saveDataTOJsonSever,
+    deleteMovieFromCollection
 };

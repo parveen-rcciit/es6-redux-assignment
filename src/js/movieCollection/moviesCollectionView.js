@@ -41,6 +41,7 @@ const createMoviesByCollection = (movieCollectionData) => {
  movieCollectionData.map((movieColDetailData, index) => {
   movieCollectionDetails += `<div class="section-content">
                           <div class="container">
+                           <button class="float-right movie-col-del" id="${movieColDetailData.genre}"><i class="fa fa-trash" aria-hidden="true"></i></button>
                               <div class="row">
                                   <div class="col-md-3 pt-1">
                                       <div class="movie-image-col w-75" movieId="${movieColDetailData.id}">
