@@ -27,6 +27,10 @@
     {
       "id": "mystery",
       "name": "Mystery"
+    },
+    {
+      "id": "horror",
+      "name": "Horror"
     }
   ],
   "action": [
@@ -111,17 +115,28 @@
       "genre": "family"
     },
     {
-      "id": 281338,
+      "id": 351286,
       "original_language": "en",
-      "overview": "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.",
-      "poster_path": "/oDvgC7IeTdc03SgiSSo2HY7xGYX.jpg",
-      "release_date": "2017-07-11",
-      "title": "War for the Planet of the Apes",
-      "vote_average": 6.9,
+      "overview": "Several years after the demise of Jurassic World, a volcanic eruption threatens the remaining dinosaurs on the island of Isla Nublar. Claire Dearing, the former park manager and founder of the Dinosaur Protection Group, recruits Owen Grady to help prevent the extinction of the dinosaurs once again.",
+      "poster_path": "/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg",
+      "release_date": "2018-06-06",
+      "title": "Jurassic World: Fallen Kingdom",
+      "vote_average": 6.6,
       "genre": "family"
     }
   ],
-  "horror": [],
+  "horror": [
+    {
+      "id": 955,
+      "original_language": "en",
+      "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+      "poster_path": "/eRaEC0vf5q5TSvaoJPwGTt2wa9T.jpg",
+      "release_date": "2000-05-24",
+      "title": "Mission: Impossible II",
+      "vote_average": 6,
+      "genre": "horror"
+    }
+  ],
   "music": [],
   "mystery": [
     {

@@ -6,6 +6,7 @@ import store from '../stateMgmt/store';
 
 import {
   SHOW_SEARCH_MOVIE_RESULTS,
+  FETCH_MORE_SEARCH_MOVIES_PAGINATION,
 } from '../stateMgmt/actionTypes';
 
 const jQuery = require('jquery');
@@ -27,14 +28,15 @@ function searchMovieEventListener() {
 
 
   // get search movie results for pagination
-  jQuery(document).on('click', '#nextSearchMovieList', function () {
+  jQuery(document).on('click', '#nextSearchMovieList', () => {
     const activeElemIndex = jQuery('.carousel-item-search-movie').index(jQuery('.carousel-item-search-movie.active'));
     if (activeElemIndex % 13 === 0) {
-      let pageNumber = parseInt(jQuery(this).attr('pageNumber'), 10);
-      pageNumber += 1;
+      store.dispatch({
+        type: FETCH_MORE_SEARCH_MOVIES_PAGINATION,
+      });
+      const pageNumber = store.getState().searchMoviesPageNumber;
       const movieName = jQuery('#movieName').val();
       getSearchMovieResults(movieName, pageNumber, showSearchMovies);
-      jQuery(this).attr('pageNumber', pageNumber);
     }
   });
 }

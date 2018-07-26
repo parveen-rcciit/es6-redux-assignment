@@ -1,10 +1,14 @@
-import { createStore } from 'redux';
+import {
+  createStore,
+} from 'redux';
 import {
   SHOW_POPULAR_MOVIES,
   SHOW_FULL_MOVIE_DETAILS,
   SHOW_MOVIE_COLLECTION_TYPES,
   SHOW_MOVIES_BY_COLLECTION,
   SHOW_SEARCH_MOVIE_RESULTS,
+  FETCH_MORE_POPULAR_MOVIES_PAGINATION,
+  FETCH_MORE_SEARCH_MOVIES_PAGINATION,
 } from './actionTypes';
 
 const initialState = {
@@ -13,6 +17,8 @@ const initialState = {
   movieDetails: {},
   searchMovieDetails: [],
   moviebyColList: [],
+  popularMoviesPageNumber: 1,
+  searchMoviesPageNumber: 1,
   action: '',
 };
 
@@ -50,6 +56,18 @@ const movieAppReducer = (state = initialState, action) => {
         searchMovieDetails: action.item,
         action: action.type,
       };
+    case FETCH_MORE_POPULAR_MOVIES_PAGINATION:
+      return {
+        ...state,
+        popularMoviesPageNumber: state.popularMoviesPageNumber + 1,
+        action: action.type,
+      };
+    case FETCH_MORE_SEARCH_MOVIES_PAGINATION:
+      return {
+        ...state,
+        searchMoviesPageNumber: state.searchMoviesPageNumber + 1,
+        action: action.type,
+      };
     default:
       return state;
   }
@@ -62,6 +80,8 @@ const store = createStore(movieAppReducer, {
   movieDetails: {},
   searchMovieDetails: [],
   moviebyColList: [],
+  popularMoviesPageNumber: 1,
+  searchMoviesPageNumber: 1,
   action: '',
 });
 
