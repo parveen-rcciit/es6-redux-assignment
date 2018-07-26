@@ -21,12 +21,12 @@
       "name": "Family"
     },
     {
-      "id": "horror",
-      "name": "Horror"
+      "id": "hindi",
+      "name": "Hindi"
     },
     {
-      "id": "comedy",
-      "name": "Comedy"
+      "id": "mystery",
+      "name": "Mystery"
     }
   ],
   "action": [
@@ -49,10 +49,19 @@
       "title": "Along Came a Spider",
       "vote_average": 6.2,
       "genre": "action"
+    },
+    {
+      "id": 10138,
+      "original_language": "en",
+      "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances – and confront powerful enemies.",
+      "poster_path": "/ArqpkNYGfcTIA6umWt6xihfIZZv.jpg",
+      "release_date": "2010-04-28",
+      "title": "Iron Man 2",
+      "vote_average": 6.7,
+      "genre": "action"
     }
   ],
-  "adventure": [],
-  "animation": [
+  "adventure": [
     {
       "id": 299536,
       "original_language": "en",
@@ -61,16 +70,18 @@
       "release_date": "2018-04-25",
       "title": "Avengers: Infinity War",
       "vote_average": 8.4,
-      "genre": "animation"
-    },
+      "genre": "adventure"
+    }
+  ],
+  "animation": [
     {
-      "id": 260513,
+      "id": 363088,
       "original_language": "en",
-      "overview": "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
-      "poster_path": "/x1txcDXkcM65gl7w20PwYSxAYah.jpg",
-      "release_date": "2018-06-14",
-      "title": "Incredibles 2",
-      "vote_average": 7.7,
+      "overview": "As Scott Lang awaits expiration of his term of house detention, Hope van Dyne and Dr. Hank Pym involve him in a scheme to rescue Mrs. van Dyne from the micro-universe into which she has fallen, while two groups of schemers converge on them with intentions of stealing Dr. Pym's inventions.",
+      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "release_date": "2018-07-04",
+      "title": "Ant-Man and the Wasp",
+      "vote_average": 7,
       "genre": "animation"
     }
   ],
@@ -100,28 +111,17 @@
       "genre": "family"
     },
     {
-      "id": 333339,
+      "id": 281338,
       "original_language": "en",
-      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
-      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
-      "release_date": "2018-03-28",
-      "title": "Ready Player One",
-      "vote_average": 7.7,
+      "overview": "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.",
+      "poster_path": "/oDvgC7IeTdc03SgiSSo2HY7xGYX.jpg",
+      "release_date": "2017-07-11",
+      "title": "War for the Planet of the Apes",
+      "vote_average": 6.9,
       "genre": "family"
     }
   ],
-  "horror": [
-    {
-      "id": 333339,
-      "original_language": "en",
-      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
-      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
-      "release_date": "2018-03-28",
-      "title": "Ready Player One",
-      "vote_average": 7.7,
-      "genre": "horror"
-    }
-  ],
+  "horror": [],
   "music": [],
   "mystery": [
     {
@@ -133,23 +133,25 @@
       "title": "Thor: Ragnarok",
       "vote_average": 7.5,
       "genre": "mystery"
-    },
-    {
-      "id": 333339,
-      "original_language": "en",
-      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
-      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
-      "release_date": "2018-03-28",
-      "title": "Ready Player One",
-      "vote_average": 7.7,
-      "genre": "mystery"
     }
   ],
+  "comedy": [],
   "romance": [],
   "sciencefiction": [],
   "tvmovie": [],
   "thriller": [],
   "war": [],
   "western": [],
-  "hindi": []
+  "hindi": [
+    {
+      "id": 559,
+      "original_language": "en",
+      "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains – including the shape-shifting Sandman. While Spider-Man’s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
+      "poster_path": "/btocnvK4l8a4BGS887ed3lsTFog.jpg",
+      "release_date": "2007-05-01",
+      "title": "Spider-Man 3",
+      "vote_average": 6,
+      "genre": "hindi"
+    }
+  ]
 }

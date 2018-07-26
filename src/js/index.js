@@ -1,34 +1,30 @@
-var jQuery = require('jQuery');
 import 'popper.js';
 import 'bootstrap';
 import 'jquery-ui';
-require("../scss/style.scss");
 // local file imports
-import img from '../assets/images/hero-image1.jpg'
 import {
   getPopularMovies,
-  getMovieCollectionTypes
+  getMovieCollectionTypes,
 } from './apiDataService';
 import {
   moviesEventListener,
-  showPopularMovies
+  showPopularMovies,
 } from './movies/moviesEventHandler';
 import {
   moviesCollectionEventListener,
-  showMyCollectionOfMovies
+  showMyCollectionOfMovies,
 } from './movieCollection/moviesCollectionEventHandler';
 import {
-  searchMovieEventListener
+  searchMovieEventListener,
 } from './searchMovies/searchMoviesEventHandler';
-import {
-  baseUrl
-} from './apiPath';
 
-import {
-  subscribeStore
-} from './stateMgmt/subscribe';
+import subscribeStore from './stateMgmt/subscribe';
 
-document.addEventListener("DOMContentLoaded", (event) => {
+const jQuery = require('jquery');
+
+require('../scss/style.scss');
+
+document.addEventListener('DOMContentLoaded', () => {
   console.log('app initialized');
   getPopularMovies(1, showPopularMovies);
   getMovieCollectionTypes(showMyCollectionOfMovies);
@@ -37,9 +33,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
   searchMovieEventListener();
   subscribeStore();
 
-  //to display multiple cards in carousel
-  jQuery('#myCarousel, #myCarousel-search, #myCarousel-myColMovie').on('slid.bs.carousel', function () {
-    jQuery(".carousel-item.active:nth-child(" + (jQuery(".carousel-inner .carousel-item").length - 1) + ") + .carousel-item").insertBefore(jQuery(".carousel-item:first-child"));
-    jQuery(".carousel-item.active:last-child").insertBefore(jQuery(".carousel-item:first-child"));
+  // to display multiple cards in carousel
+  jQuery('#myCarousel, #myCarousel-search, #myCarousel-myColMovie').on('slid.bs.carousel', () => {
+    jQuery(`.carousel-item.active:nth-child(${jQuery('.carousel-inner .carousel-item').length - 1}) + .carousel-item`).insertBefore(jQuery('.carousel-item:first-child'));
+    jQuery('.carousel-item.active:last-child').insertBefore(jQuery('.carousel-item:first-child'));
   });
 });

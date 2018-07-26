@@ -1,14 +1,15 @@
-var jQuery = require('jQuery');
 import {
- posterPath
+  posterPath,
 } from '../apiPath';
 
-//displays search movie results on home page
-const  createSearchMoviesList = (containerId, movieData) => {
- var searchMovieListSize = jQuery(".carousel-item-search-movie", ".card-deck-search-movie").length;
- let searchMoviesCarouselItems = "";
- movieData.results.map((movieRecod, index) => {
-  searchMoviesCarouselItems += `<div class="carousel-item col-md-2 carousel-item-search-movie" id=${movieRecod.id} data-toggle="modal" data-target="#movieDetailView">
+const jQuery = require('jquery');
+
+// displays search movie results on home page
+const createSearchMoviesList = (containerId, movieData) => {
+  const searchMovieListSize = jQuery('.carousel-item-search-movie', '.card-deck-search-movie').length;
+  let searchMoviesCarouselItems = '';
+  movieData.results.forEach((movieRecod) => {
+    searchMoviesCarouselItems += `<div class="carousel-item col-md-2 carousel-item-search-movie" id=${movieRecod.id} data-toggle="modal" data-target="#movieDetailView">
                                  <div class="card">
                                  <img src="${posterPath + movieRecod.poster_path}" alt="${movieRecod.original_title}" class="card-img-top img-fluid">
                                  <!-- <div class="card-body">
@@ -16,17 +17,15 @@ const  createSearchMoviesList = (containerId, movieData) => {
                                  </div> -->
                                  </div>
                                  </div>`;
- });
- jQuery(".card-deck-search-movie").append(searchMoviesCarouselItems);
- if (searchMovieListSize == 0) {
-  jQuery('.carousel-item-search-movie').first().addClass('active');
- }
-
-}
-//displays movie details
+  });
+  jQuery('.card-deck-search-movie').append(searchMoviesCarouselItems);
+  if (searchMovieListSize === 0) {
+    jQuery('.carousel-item-search-movie').first().addClass('active');
+  }
+};
+// displays movie details
 const createMovieDetail = (containerId, movieDetailData) => {
-
- let movieDetails = `<div class="section-content">
+  const movieDetails = `<div class="section-content">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-4 pt-1">
@@ -47,11 +46,10 @@ const createMovieDetail = (containerId, movieDetailData) => {
                               </div>
                           </div>
                       </div>`;
- jQuery("#" + containerId).html(movieDetails);
-
-}
+  jQuery(`#${containerId}`).html(movieDetails);
+};
 
 export {
- createSearchMoviesList,
- createMovieDetail
+  createSearchMoviesList,
+  createMovieDetail,
 };
