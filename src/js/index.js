@@ -2,11 +2,9 @@ var jQuery = require('jQuery');
 import 'popper.js';
 import 'bootstrap';
 import 'jquery-ui';
-//import 'font-awesome';
-import img from '../assets/images/hero-image1.jpg'
 require("../scss/style.scss");
-import subscribeStore from './stateMgmt/subscribe';
 // local file imports
+import img from '../assets/images/hero-image1.jpg'
 import {
   getPopularMovies,
   getMovieCollectionTypes
@@ -25,6 +23,10 @@ import {
 import {
   baseUrl
 } from './apiPath';
+
+import {
+  subscribeStore
+} from './stateMgmt/subscribe';
 
 document.addEventListener("DOMContentLoaded", (event) => {
   console.log('app initialized');

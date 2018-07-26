@@ -7,8 +7,6 @@ import {
   SHOW_FULL_MOVIE_DETAILS,
   SHOW_MOVIE_COLLECTION_TYPES,
   SHOW_MOVIES_BY_COLLECTION,
-  ADD_MOVIE_TO_COLLECTION,
-  DELETE_MOVIE_FROM_COLLECTION,
   SHOW_SEARCH_MOVIE_RESULTS
 } from "./actionTypes";
 
@@ -54,12 +52,11 @@ const render = () => {
       jQuery("#searchMovieResult").addClass("view-search-details");
     case SHOW_MOVIES_BY_COLLECTION:
       createMoviesByCollection(currState.moviebyColList);
-    case DELETE_MOVIE_FROM_COLLECTION:
-      const colType = currState.delMovieData.url.split("/")[3];
-      getMyListOfMoviesByCollection(colType, showMoviesByCollection);
     default:
       return null;
   }
   console.log("exiting render");
 }
-export default subscribeStore;
+export {
+  subscribeStore
+};

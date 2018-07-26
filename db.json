@@ -25,10 +25,6 @@
       "name": "Horror"
     },
     {
-      "id": "mystery",
-      "name": "Mystery"
-    },
-    {
       "id": "comedy",
       "name": "Comedy"
     }
@@ -80,28 +76,49 @@
   ],
   "drama": [
     {
-      "id": 166822,
+      "id": 43537,
       "original_language": "en",
-      "overview": "When a giant alien spider escapes from a military lab and rampages across the city of Los Angeles, it is up to one clever exterminator and his security guard sidekick to kill the creature before the entire city is destroyed.",
-      "poster_path": "/g4iOcEQMBfxHJsPg3cublh1Z0Su.jpg",
-      "release_date": "2013-10-17",
-      "title": "Big Ass Spider!",
-      "vote_average": 5.5,
+      "overview": "An ex-cop is suspected of murder after he is found with a dead woman. The private detective is on the run -- attempting to prove his innocence.",
+      "poster_path": "/i8qKxTyuqlQ91yKbN9Wt9okFsEt.jpg",
+      "release_date": "1945-12-01",
+      "title": "The Spider",
+      "vote_average": 4.2,
       "genre": "drama"
     }
   ],
   "crime": [],
   "documentary": [],
-  "family": [],
+  "family": [
+    {
+      "id": 284053,
+      "original_language": "en",
+      "overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "release_date": "2017-10-25",
+      "title": "Thor: Ragnarok",
+      "vote_average": 7.5,
+      "genre": "family"
+    },
+    {
+      "id": 333339,
+      "original_language": "en",
+      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+      "release_date": "2018-03-28",
+      "title": "Ready Player One",
+      "vote_average": 7.7,
+      "genre": "family"
+    }
+  ],
   "horror": [
     {
-      "id": 10065,
+      "id": 333339,
       "original_language": "en",
-      "overview": "A family is terrorized by demonic forces after moving into a home that was the site of a grisly mass-murder.",
-      "poster_path": "/cZW2ajrHSiA0Ar2o00g4ezUYqZX.jpg",
-      "release_date": "2005-04-15",
-      "title": "The Amityville Horror",
-      "vote_average": 6,
+      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+      "release_date": "2018-03-28",
+      "title": "Ready Player One",
+      "vote_average": 7.7,
       "genre": "horror"
     }
   ],
@@ -115,6 +132,16 @@
       "release_date": "2017-10-25",
       "title": "Thor: Ragnarok",
       "vote_average": 7.5,
+      "genre": "mystery"
+    },
+    {
+      "id": 333339,
+      "original_language": "en",
+      "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+      "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+      "release_date": "2018-03-28",
+      "title": "Ready Player One",
+      "vote_average": 7.7,
       "genre": "mystery"
     }
   ],

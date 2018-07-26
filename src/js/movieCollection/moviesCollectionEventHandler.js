@@ -130,9 +130,8 @@ const updateCollectionList = (response) => {
   getMovieCollectionTypes(showMyCollectionOfMovies);
 }
 const updateCollectionListForMovies = (response) => {
-  store.dispatch({type: DELETE_MOVIE_FROM_COLLECTION, item: response});
-  /*var colType = response.url.split("/")[3];
-  getMyListOfMoviesByCollection(colType, showMoviesByCollection);*/
+  var colType = response.url.split("/")[3];
+  getMyListOfMoviesByCollection(colType, showMoviesByCollection);
 }
 export {
   moviesCollectionEventListener,

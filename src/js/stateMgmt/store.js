@@ -8,8 +8,6 @@ import {
   SHOW_FULL_MOVIE_DETAILS,
   SHOW_MOVIE_COLLECTION_TYPES,
   SHOW_MOVIES_BY_COLLECTION,
-  ADD_MOVIE_TO_COLLECTION,
-  DELETE_MOVIE_FROM_COLLECTION,
   SHOW_SEARCH_MOVIE_RESULTS
 } from "./actionTypes";
 
@@ -28,13 +26,12 @@ const initialState = {
   movieDetails: {},
   searchMovieDetails: [],
   moviebyColList: [],
-  delMovieData: {},
   action: ""
 };
 
-
+//reducer
 const movieAppReducer = (state = initialState, action) => {
-  console.log("inside reducer");
+  //console.log("inside reducer");
   switch (action.type) {
     case SHOW_POPULAR_MOVIES:
       return {
@@ -58,14 +55,6 @@ const movieAppReducer = (state = initialState, action) => {
         moviebyColList: action.item,
         action: action.type
       };
-    case ADD_MOVIE_TO_COLLECTION:
-      return state;
-    case DELETE_MOVIE_FROM_COLLECTION:
-      return { ...state,
-        delMovieData: action.item,
-        action: action.type
-      };
-      
     case SHOW_SEARCH_MOVIE_RESULTS:
       return { ...state,
         searchMovieDetails: action.item,
@@ -75,13 +64,14 @@ const movieAppReducer = (state = initialState, action) => {
       return state;
   }
 }
+
+//store
 const store = createStore(movieAppReducer, {
   movies: [],
   colTypes: [],
   movieDetails: {},
   searchMovieDetails: [],
   moviebyColList: [],
-  delMovieData: {},
   action: ""
 });
 
