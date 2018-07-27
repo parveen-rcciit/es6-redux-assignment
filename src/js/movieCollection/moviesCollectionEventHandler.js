@@ -1,5 +1,4 @@
 import {
-  getFullMovieDetails,
   saveDataTOJsonSever,
   getMovieCollectionTypes,
   getMyListOfMoviesByCollection,
@@ -75,9 +74,8 @@ const updateCollectionListForMovies = (response) => {
 
 function moviesCollectionEventListener() {
   // adds movie to a collection
-  jQuery(document).on('click', '.movie-col-type', function () {
-    const movieId = jQuery(this.parentElement.previousElementSibling).attr('movieid');
-    getFullMovieDetails(movieId, addMovieToCollection);
+  jQuery(document).on('click', '.movie-col-type', () => {
+    addMovieToCollection(store.getState().movieDetails);
   });
 
   // remove movie from a collection

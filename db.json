@@ -63,6 +63,16 @@
       "title": "Iron Man 2",
       "vote_average": 6.7,
       "genre": "action"
+    },
+    {
+      "id": 299536,
+      "original_language": "en",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "release_date": "2018-04-25",
+      "title": "Avengers: Infinity War",
+      "vote_average": 8.4,
+      "genre": "action"
     }
   ],
   "adventure": [
@@ -75,6 +85,16 @@
       "title": "Avengers: Infinity War",
       "vote_average": 8.4,
       "genre": "adventure"
+    },
+    {
+      "id": 363088,
+      "original_language": "en",
+      "overview": "As Scott Lang awaits expiration of his term of house detention, Hope van Dyne and Dr. Hank Pym involve him in a scheme to rescue Mrs. van Dyne from the micro-universe into which she has fallen, while two groups of schemers converge on them with intentions of stealing Dr. Pym's inventions.",
+      "poster_path": "/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "release_date": "2018-07-04",
+      "title": "Ant-Man and the Wasp",
+      "vote_average": 7,
+      "genre": "adventure"
     }
   ],
   "animation": [
@@ -86,6 +106,16 @@
       "release_date": "2018-07-04",
       "title": "Ant-Man and the Wasp",
       "vote_average": 7,
+      "genre": "animation"
+    },
+    {
+      "id": 954,
+      "original_language": "en",
+      "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+      "poster_path": "/vmj2PzTLC6xJvshpq8SlaYE3gbd.jpg",
+      "release_date": "1996-05-22",
+      "title": "Mission: Impossible",
+      "vote_average": 6.8,
       "genre": "animation"
     }
   ],
